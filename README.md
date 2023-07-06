@@ -2,7 +2,7 @@
 
 ✦ Create organizational charts in a simple and practical way to organize kittens :)
 
-✦ This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+✦ This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app)
 
 ✦ Figma: [[www]](https://www.figma.com/file/T6BLI1HfB81eYOiVgpqQz7/Projeto-Intro-ao-React?type=design&node-id=134-143&mode=design&t=oMOnQNdX5rqhzn7I-0)
 
