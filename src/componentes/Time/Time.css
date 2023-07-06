@@ -1,11 +1,22 @@
 .time {
   padding: 32px;
   text-align: center;
+  background-image: url('../../../public/img/fundo.png');
+  background-size: cover;
+  background-position: center;
 }
 
 .time h3 {
-  padding-bottom: 8px;
-  font-size: 32px;
-  border-bottom: 4px solid;
   display: inline-block;
+  padding-bottom: 8px;
+  border-bottom: 4px solid;
+  font-size: 32px;
+}
+
+.time .gatos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  margin-top: 32px;
 }

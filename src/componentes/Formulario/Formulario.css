@@ -11,3 +11,24 @@
   background-color: #f2f2f2;
   box-shadow: 8px 8px 8px rgba(0, 0, 0, 0.08);
 }
+
+.formulario h2 {
+  font-family: 'Prata', serif;
+  font-size: 32px;
+  font-weight: 400;
+  line-height: 44px;
+}
+
+.formulario label {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+}
+
+.formulario input {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #a4a4a4;
+}

@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Banner from './componentes/Banner/Banner';
 import Formulario from './componentes/Formulario';
 import Time from './componentes/Time';
+import Rodape from './componentes/Rodape';
 
 function App() {
 
@@ -26,17 +27,23 @@ function App() {
   const [gatos, setGatos] = useState([])
 
   const aoNovoGatoAdicionado = (gato) => {
-    console.log(gato)
     setGatos([...gatos, gato])
   }
 
   return (
     <div className="App">
       <Banner />
-      <Formulario aoGatoCadastrado={gato => aoNovoGatoAdicionado(gato)} />
+      <Formulario times={times.map(time => time.nome)} aoGatoCadastrado={gato => aoNovoGatoAdicionado(gato)} />
 
-      {times.map(time => <Time key={time.nome} nome={time.nome} corPrimaria={time.corPrimaria} corSecundaria={time.corSecundaria} />)}
+      {times.map(time => <Time
+        key={time.nome}
+        nome={time.nome}
+        corPrimaria={time.corPrimaria}
+        corSecundaria={time.corSecundaria}
+        gatos={gatos.filter(gato => gato.time === time.nome)}
+      />)}
 
+      <Rodape />
     </div>
   );
 }

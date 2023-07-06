@@ -1,0 +1,39 @@
+.gato {
+  width: 280px;
+}
+
+.gato .cabecalho {
+  border-radius: 10px 10px 0px 0px;
+  background-color: #F0F0F0;
+}
+
+.gato img {
+  width: 100px;
+  position: relative;
+  bottom: -50px;
+  border-radius: 50%;
+}
+
+.gato .rodape {
+  padding: 40px 0;
+  border-radius: 0px 0px 10px 10px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.08);
+  background-color: #FFFFFF;
+}
+
+.gato .rodape h4 {
+  margin-bottom: 0px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 22px;
+  color: #6278F7;
+}
+
+.gato .rodape h5 {
+  padding: 0 16px;
+  margin: 8px 0;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  color: #212121;
+}
